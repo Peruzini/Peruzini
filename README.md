@@ -19,11 +19,11 @@ Minha formação reúne Engenharia de Minas e Ciência de Dados. Trabalho com a 
 
 | Projeto | O que você encontra |
 | --- | --- |
-| [Portfólio de BI](https://github.com/Peruzini/NOVOREPOSIT) | Estudos demonstrativos de análise comercial e indicadores de projetos, com dados sintéticos, Python, SQL e material de apoio para Power BI. |
+| [Portfólio de Power BI](https://github.com/Peruzini/NOVOREPOSIT) | Dois projetos editáveis: análise comercial e acompanhamento de demandas, com modelos, DAX, Power Query, Python, SQL e dados sintéticos. |
 | [Análise de dados da NBA com SQL](https://github.com/Peruzini/M3-NBA-DataAnalytics-SQL) | Projeto acadêmico em equipe, com consultas exploratórias, apresentação e documentação do contexto e das limitações. |
 | [API para estúdio de tatuagem](https://github.com/Peruzini/ProjetoResilia-M4-API) | Projeto acadêmico em equipe com JavaScript, Node.js e SQLite. |
 
-Os estudos de BI são exemplos de portfólio. Os respectivos READMEs informam o que já pode ser executado e o que depende da montagem do relatório no Power BI Desktop.
+Os estudos de BI incluem seis páginas em projetos `.pbip`. A estrutura foi verificada por código; os respectivos READMEs explicam a abertura, os resultados esperados e a validação ainda necessária no Power BI Desktop.
 
 ## Como trabalho com dados
 
