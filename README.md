@@ -20,6 +20,7 @@ Minha formação reúne Engenharia de Minas e Ciência de Dados. Trabalho com a 
 
 | Projeto | O que você encontra |
 | --- | --- |
+| [Fleet Analytics — DAX Avançado](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/fleet-dax-advanced) | Case de BI para frota de equipamentos com 50+ medidas DAX, time intelligence, TREATAS, Pareto, tabelas virtuais, MTBF/MTTR e score dinâmico de criticidade. |
 | [Portfólio de Power BI e Dados](https://github.com/Peruzini/NOVOREPOSIT) | Estudos demonstrativos de análise comercial, gestão de demandas, Marketing Analytics e Big Data, com DAX, Power Query, Python, SQL, PySpark e dados sintéticos. |
 | [Marketing Analytics — Power BI](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/marketing-analytics) | Funil de aquisição e eficiência de mídia: CTR, CPC, CPL, CAC, conversões, ROAS e análise por canal/campanha. |
 | [EquipAnalytics — Big Data](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/big-data-equipamentos) | Pipeline PySpark, SQL analítico, Parquet, qualidade de dados e processamento de 100 mil eventos sintéticos. |
