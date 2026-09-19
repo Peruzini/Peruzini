@@ -1,36 +1,60 @@
 # Rafael Peruzini
 
-### Business Intelligence · Power BI · SQL · Python · Big Data
+### Business Intelligence · Power BI · SQL · Snowflake · IA aplicada a Analytics
 
-Sou profissional de Business Intelligence e análise de dados, com experiência em planejamento, indicadores, automação de rotinas e melhoria de processos. Minha trajetória inclui atuação na CSN e no FGV IBRE, conectando necessidades das áreas de negócio ao tratamento e à análise de dados.
+Sou formado em Ciência de Dados e Engenharia de Minas, com trajetória na CSN e no FGV IBRE. Trabalho com desenvolvimento e evolução de painéis, modelagem de dados, definição de indicadores e automação de rotinas analíticas.
 
-Minha formação reúne Engenharia de Minas e Ciência de Dados. Trabalho com definição de indicadores, modelagem de dados e construção de relatórios para acompanhamento de resultados e tomada de decisão.
+Na FGV IBRE, atuei com dashboards e indicadores e participei da implementação do Snowflake Cortex no ambiente analítico, com foco em casos de uso de consulta e interpretação de dados e validação de respostas.
+
+**Meu foco:** apoiar a correção e evolução de painéis Power BI, a validação de indicadores em migrações e a preparação de dados e regras de negócio para soluções de IA no Snowflake.
+
+## Projetos para conhecer meu trabalho
+
+### Fleet Analytics — modelagem e revisão de indicadores
+
+[Conheça o estudo](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/fleet-dax-advanced) · [Veja o projeto Power BI completo](https://github.com/Peruzini/NOVOREPOSIT/tree/main/powerbi/fleet)
+
+Estudo de gestão de equipamentos: produção, disponibilidade, manutenção, custos e criticidade. Demonstra a organização de regras de negócio em um modelo com dimensões compartilhadas e múltiplas tabelas fato.
+
+- **Entrega:** PBIP com 4 páginas e 34 medidas DAX incorporadas, Power Query e modelo semântico versionados.
+- **Competências:** contexto de filtro, comparação entre períodos, rankings, indicadores operacionais e documentação.
+- **Escopo técnico:** o catálogo com 50+ medidas é uma referência adicional, com diferenças de esquema e regras em relação ao PBIP.
+- **Validação:** abertura, atualização, cálculos e interações ainda requerem conferência completa no Power BI Desktop.
+
+### Projetos complementares
+
+| Projeto | Pergunta de negócio | Evidência disponível |
+| --- | --- | --- |
+| [Indicadores de projetos](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/indicadores-projetos) | Quais demandas estão atrasadas e como os prazos variam entre equipes? | PBIP, DAX e referências numéricas para conferir calendário, backlog e entregas. |
+| [Marketing Analytics](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/marketing-analytics) | Quais canais combinam aquisição e eficiência de mídia? | Dados sintéticos, SQL, pipeline Python, medidas DAX e resultados esperados para CAC, conversão e ROAS. Relatório PBIP ainda não versionado. |
+| [EquipAnalytics — PySpark](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/big-data-equipamentos) | Como produzir indicadores sem incorporar registros inválidos? | Bronze/Silver/Gold em Parquet, deduplicação, quarentena e registro de execução local no GitHub Actions com 100 mil eventos únicos e 7 testes aprovados. |
+| [Análise comercial](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/analise-comercial) | Como receita e margem variam por loja, categoria e período? | PBIP, transformação de dados, SQL e resultados de referência para conciliação. |
+
+[Explore o portfólio completo](https://github.com/Peruzini/NOVOREPOSIT).
+
+## Como abordo correções, migrações e IA
+
+1. Entendo o uso do painel e documento fontes, indicadores, filtros e regras de negócio.
+2. Investigo divergências entre dados, consultas SQL, medidas DAX e apresentação.
+3. Para uma migração, defino recortes de comparação e critérios de aceite para preservar o significado dos indicadores.
+4. Para IA, seleciono perguntas de negócio, preparo a camada de dados e comparo as respostas com consultas e resultados de referência.
+
+Os projetos públicos demonstram fundamentos de BI, SQL e qualidade de dados. A experiência profissional com Cortex é apresentada acima; este portfólio ainda não contém um agente Cortex implementado.
 
 ## Competências
 
 | Área | Ferramentas e atividades |
 | --- | --- |
-| Business Intelligence | Power BI, DAX, Power Query, modelagem dimensional e dashboards |
-| Dados | SQL, SQL Server, Oracle e Snowflake; extração, consolidação e validação |
-| Análise e automação | Python, pandas, integração com APIs e automação de rotinas |
-| Big Data | PySpark, Spark SQL, Parquet, qualidade de dados e camadas Bronze/Silver/Gold |
-| Negócio e processos | KPIs, planejamento, produtividade, levantamento de requisitos e melhoria contínua |
+| Power BI | DAX, Power Query/M, modelagem dimensional, dashboards e KPIs |
+| Dados | SQL, Snowflake, Oracle e SQL Server; extração, consolidação e validação |
+| Automação | Python, pandas, integração com APIs e automação de rotinas |
+| IA aplicada a Analytics | Participação em implementação de Snowflake Cortex e validação de consultas e respostas |
+| Engenharia de dados no portfólio | PySpark, Spark SQL, Parquet, deduplicação e camadas Bronze/Silver/Gold |
+| Negócio | Planejamento, levantamento de requisitos, análise de desvios e melhoria de processos |
 
-## Projetos
+## Formação prática complementar
 
-| Projeto | O que você encontra |
-| --- | --- |
-| [Fleet Analytics — Power BI + DAX Avançado](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/fleet-dax-advanced) | PBIP editável com 4 páginas e 34 medidas incorporadas ao modelo; catálogo técnico com 50+ medidas DAX, time intelligence, RANKX, TOPN, ALLSELECTED, MTBF/MTTR e índice de criticidade. |
-| [Portfólio de Power BI e Dados](https://github.com/Peruzini/NOVOREPOSIT) | Estudos demonstrativos de análise comercial, gestão de demandas, Marketing Analytics e Big Data, com DAX, Power Query, Python, SQL, PySpark e dados sintéticos. |
-| [Marketing Analytics — Power BI](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/marketing-analytics) | Funil de aquisição e eficiência de mídia: CTR, CPC, CPL, CAC, conversões, ROAS e análise por canal/campanha. |
-| [EquipAnalytics — Big Data](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/big-data-equipamentos) | Pipeline PySpark, SQL analítico, Parquet, qualidade de dados e processamento de 100 mil eventos sintéticos. |
-| [Análise de dados da NBA com SQL](https://github.com/Peruzini/M3-NBA-DataAnalytics-SQL) | Projeto acadêmico em equipe, com consultas exploratórias, apresentação e documentação do contexto e das limitações. |
-| [API para estúdio de tatuagem](https://github.com/Peruzini/ProjetoResilia-M4-API) | Projeto acadêmico em equipe com JavaScript, Node.js e SQLite. |
+- [Análise de dados da NBA com SQL](https://github.com/Peruzini/M3-NBA-DataAnalytics-SQL) — projeto acadêmico em equipe.
+- [API para estúdio de tatuagem](https://github.com/Peruzini/ProjetoResilia-M4-API) — projeto acadêmico em equipe com JavaScript, Node.js e SQLite.
 
-Os estudos demonstrativos usam dados fictícios e documentam regras de negócio, métricas e limites de validação. Os projetos Power BI editáveis ainda requerem conferência final no Power BI Desktop para abertura, atualização, interações e aparência.
-
-## Como trabalho com dados
-
-Começo pela pergunta de negócio e pela definição dos indicadores. Depois verifico a qualidade das fontes, organizo o modelo e confiro os resultados. Na apresentação, explico as premissas e relaciono os números às decisões que eles ajudam a tomar.
-
-Os projetos acadêmicos mantêm os créditos das equipes. Os estudos demonstrativos não representam informações ou resultados de empresas em que trabalhei.
+Os estudos demonstrativos usam dados sintéticos e não representam informações ou resultados da CSN, FGV ou clientes. Os projetos acadêmicos preservam os créditos das equipes.
