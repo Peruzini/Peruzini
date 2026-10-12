@@ -1,60 +1,110 @@
 # Rafael Peruzini
 
-### Business Intelligence · Power BI · SQL · Snowflake · IA aplicada a Analytics
+### Data & BI · Analytics Engineering · Power BI · SQL · dbt · Snowflake · Python
 
-Sou formado em Ciência de Dados e Engenharia de Minas, com trajetória na CSN e no FGV IBRE. Trabalho com desenvolvimento e evolução de painéis, modelagem de dados, definição de indicadores e automação de rotinas analíticas.
+Sou formado em **Ciência de Dados** e **Engenharia de Minas**, com experiência profissional na **FGV IBRE** e na **CSN**. Minha atuação combina análise de dados, Business Intelligence, modelagem, automação e entendimento de regras de negócio.
 
-Na FGV IBRE, atuei com dashboards e indicadores e participei da implementação do Snowflake Cortex no ambiente analítico, com foco em casos de uso de consulta e interpretação de dados e validação de respostas.
+Na FGV IBRE, trabalhei com **Power BI, SQL/Oracle, Snowflake, transformação e validação de dados**, além de participar da implementação do **Snowflake Cortex** no ambiente analítico. Também desenvolvi rotinas e soluções voltadas à qualidade dos dados, indicadores e apoio à tomada de decisão.
 
-**Meu foco:** apoiar a correção e evolução de painéis Power BI, a validação de indicadores em migrações e a preparação de dados e regras de negócio para soluções de IA no Snowflake.
+Hoje concentro meu portfólio em três frentes: **BI e Analytics Engineering**, **automação e produtos orientados a dados** e **projetos aplicados com Python/IA**.
 
-## Projetos para conhecer meu trabalho
+## Projetos em destaque
 
-### Fleet Analytics — modelagem e revisão de indicadores
+### Fleet Analytics — Power BI, DAX e modelagem
 
-[Conheça o estudo](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/fleet-dax-advanced) · [Veja o projeto Power BI completo](https://github.com/Peruzini/NOVOREPOSIT/tree/main/powerbi/fleet)
+[Ver estudo](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/fleet-dax-advanced) · [Ver projeto Power BI](https://github.com/Peruzini/NOVOREPOSIT/tree/main/powerbi/fleet)
 
-Estudo de gestão de equipamentos: produção, disponibilidade, manutenção, custos e criticidade. Demonstra a organização de regras de negócio em um modelo com dimensões compartilhadas e múltiplas tabelas fato.
+Estudo de gestão de equipamentos com produção, disponibilidade, manutenção, custos e criticidade.
 
-- **Entrega:** PBIP com 4 páginas e 34 medidas DAX incorporadas, Power Query e modelo semântico versionados.
-- **Competências:** contexto de filtro, comparação entre períodos, rankings, indicadores operacionais e documentação.
-- **Escopo técnico:** o catálogo com 50+ medidas é uma referência adicional, com diferenças de esquema e regras em relação ao PBIP.
-- **Validação:** abertura, atualização, cálculos e interações ainda requerem conferência completa no Power BI Desktop.
+- Modelo com dimensões compartilhadas e múltiplas tabelas fato.
+- PBIP com 4 páginas, 34 medidas DAX, Power Query e modelo semântico versionados.
+- Análises de contexto de filtro, comparação entre períodos, rankings e indicadores operacionais.
+- Documentação de regras de negócio e critérios de validação.
 
-### Projetos complementares
+### EquipAnalytics — pipeline PySpark
 
-| Projeto | Pergunta de negócio | Evidência disponível |
+[Ver projeto](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/big-data-equipamentos)
+
+Pipeline analítico em **PySpark/Spark SQL** com arquitetura Bronze/Silver/Gold.
+
+- Tratamento de registros inválidos, deduplicação e quarentena.
+- Persistência em Parquet.
+- Execução validada com 100 mil eventos únicos e testes automatizados.
+- Foco em qualidade de dados e rastreabilidade do processamento.
+
+### Forja Mineira D20 — produto WordPress em produção
+
+[Ver repositório](https://github.com/Peruzini/forja-mineira-d20) · [Acessar site](https://forjamineirad20.com.br/)
+
+Projeto editorial e técnico de RPG construído sobre WordPress, com plugins próprios para builds, guias interativos, filtros e navegação estruturada.
+
+- Desenvolvimento e manutenção de plugins PHP/CSS/JavaScript.
+- Estruturação de bases de conteúdo e regras para filtros e componentes interativos.
+- Versionamento de releases e estratégia de rollback.
+- SEO, arquitetura de conteúdo e evolução contínua do produto.
+
+### Portfólio Web — projetos para negócios reais
+
+[Ver repositório](https://github.com/Peruzini/portfolio-web)
+
+Cases de sites institucionais e landing pages desenvolvidos para necessidades reais de negócio.
+
+- PHP, HTML5, CSS3, JavaScript e Node.js.
+- Layout responsivo, formulários e integração com canais de atendimento.
+- Publicação em hospedagem web e documentação técnica.
+- Versionamento com dados sensíveis e ativos de clientes substituídos por conteúdo demonstrativo.
+
+## R&D e produtos em desenvolvimento
+
+Além dos projetos públicos, mantenho projetos privados de pesquisa e desenvolvimento que utilizo para aprofundar arquitetura, automação, engenharia de software e IA aplicada.
+
+| Projeto | Foco | Tecnologias / práticas |
 | --- | --- | --- |
-| [Indicadores de projetos](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/indicadores-projetos) | Quais demandas estão atrasadas e como os prazos variam entre equipes? | PBIP, DAX e referências numéricas para conferir calendário, backlog e entregas. |
-| [Marketing Analytics](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/marketing-analytics) | Quais canais combinam aquisição e eficiência de mídia? | Dados sintéticos, SQL, pipeline Python, medidas DAX e resultados esperados para CAC, conversão e ROAS. Relatório PBIP ainda não versionado. |
-| [EquipAnalytics — PySpark](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/big-data-equipamentos) | Como produzir indicadores sem incorporar registros inválidos? | Bronze/Silver/Gold em Parquet, deduplicação, quarentena e registro de execução local no GitHub Actions com 100 mil eventos únicos e 7 testes aprovados. |
-| [Análise comercial](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/analise-comercial) | Como receita e margem variam por loja, categoria e período? | PBIP, transformação de dados, SQL e resultados de referência para conciliação. |
+| **GanttFlow for Power BI** | Visual personalizado de Gantt para planejamento, baseline e análise de desvios | Power BI Custom Visuals, TypeScript, Git, CI e modelagem de dados |
+| **VTT Scene Compiler** | Pipeline assistido por IA para converter battlemaps em estrutura de cena para VTT | Python, visão computacional, ML, benchmarks, pipelines e GitHub Actions |
+| **CYBER ÁTRIA** | Scanner passivo e autorizado de sinais técnicos em sites, com saída estruturada para análise | Python, HTTP/TLS/DNS, CSV/JSON, testes automatizados e GitHub Actions |
+| **API de gerenciamento do Facebook** | Camada própria para integrar Página do Facebook, Meta Graph API e clientes autorizados | Python, FastAPI, APIs, autenticação, webhooks e arquitetura de serviços |
 
-[Explore o portfólio completo](https://github.com/Peruzini/NOVOREPOSIT).
+> Os projetos privados são apresentados aqui pelo escopo técnico; código, datasets e evidências internas permanecem restritos quando necessário.
 
-## Como abordo correções, migrações e IA
+## Outros estudos de dados
 
-1. Entendo o uso do painel e documento fontes, indicadores, filtros e regras de negócio.
-2. Investigo divergências entre dados, consultas SQL, medidas DAX e apresentação.
-3. Para uma migração, defino recortes de comparação e critérios de aceite para preservar o significado dos indicadores.
-4. Para IA, seleciono perguntas de negócio, preparo a camada de dados e comparo as respostas com consultas e resultados de referência.
+| Projeto | Objetivo | Evidências |
+| --- | --- | --- |
+| [Indicadores de projetos](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/indicadores-projetos) | Acompanhar backlog, prazos e entregas | PBIP, DAX e referências numéricas |
+| [Marketing Analytics](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/marketing-analytics) | Avaliar aquisição, conversão, CAC e ROAS | SQL, Python, dados sintéticos e medidas DAX |
+| [Análise comercial](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/analise-comercial) | Analisar receita e margem por loja, categoria e período | PBIP, SQL, transformação e conciliação |
+| [NBA Data Analytics](https://github.com/Peruzini/M3-NBA-DataAnalytics-SQL) | Análise exploratória e consultas relacionais | SQL e projeto acadêmico em equipe |
 
-Os projetos públicos demonstram fundamentos de BI, SQL e qualidade de dados. A experiência profissional com Cortex é apresentada acima; este portfólio ainda não contém um agente Cortex implementado.
+## Stack
 
-## Competências
-
-| Área | Ferramentas e atividades |
+| Área | Tecnologias e práticas |
 | --- | --- |
-| Power BI | DAX, Power Query/M, modelagem dimensional, dashboards e KPIs |
-| Dados | SQL, Snowflake, Oracle e SQL Server; extração, consolidação e validação |
-| Automação | Python, pandas, integração com APIs e automação de rotinas |
-| IA aplicada a Analytics | Participação em implementação de Snowflake Cortex e validação de consultas e respostas |
-| Engenharia de dados no portfólio | PySpark, Spark SQL, Parquet, deduplicação e camadas Bronze/Silver/Gold |
-| Negócio | Planejamento, levantamento de requisitos, análise de desvios e melhoria de processos |
+| **Business Intelligence** | Power BI, DAX, Power Query/M, modelagem dimensional, dashboards, KPIs |
+| **Analytics Engineering** | SQL, dbt, Snowflake, Oracle, SQL Server, transformação, testes e regras de negócio |
+| **Data Engineering** | Python, pandas, PySpark, Spark SQL, Parquet, AWS Athena, Databricks |
+| **Automação e integração** | APIs, requests, Power Automate, SharePoint, rotinas Python |
+| **IA aplicada a Analytics** | Snowflake Cortex, validação de respostas, preparação de contexto e casos de uso analíticos |
+| **Engenharia de software** | Git, GitHub, branches, pull requests, GitHub Actions, testes e documentação |
+| **Web / produto** | PHP, HTML, CSS, JavaScript, WordPress, Node.js |
+| **Negócio** | Levantamento de requisitos, planejamento, indicadores, análise de desvios e melhoria de processos |
 
-## Formação prática complementar
+## Como trabalho com dados
 
-- [Análise de dados da NBA com SQL](https://github.com/Peruzini/M3-NBA-DataAnalytics-SQL) — projeto acadêmico em equipe.
-- [API para estúdio de tatuagem](https://github.com/Peruzini/ProjetoResilia-M4-API) — projeto acadêmico em equipe com JavaScript, Node.js e SQLite.
+1. Entendo a decisão de negócio e transformo a necessidade em métricas e regras verificáveis.
+2. Investigo a origem dos dados e valido chaves, duplicidades, nulos, agregações e consistência entre fontes.
+3. Estruturo as transformações e o modelo antes de levar a informação para a camada de visualização.
+4. Comparo os resultados com referências e critérios de aceite antes da entrega.
+5. Versiono código, documentação e mudanças relevantes para manter rastreabilidade.
 
-Os estudos demonstrativos usam dados sintéticos e não representam informações ou resultados da CSN, FGV ou clientes. Os projetos acadêmicos preservam os créditos das equipes.
+## Experiência
+
+**FGV IBRE — Analista de BI**  
+Power BI, SQL/Oracle, Snowflake, automações, indicadores, qualidade de dados e apoio a áreas de negócio.
+
+**CSN — Técnico Especialista em Planejamento**  
+Planejamento, KPIs operacionais, análise de equipamentos, acompanhamento de desempenho e suporte à tomada de decisão.
+
+---
+
+Os projetos demonstrativos utilizam dados próprios, públicos ou sintéticos e não expõem informações confidenciais de empregadores ou clientes.
