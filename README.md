@@ -8,6 +8,10 @@ Na FGV IBRE, trabalhei com **Power BI, SQL/Oracle, Snowflake, transformação e 
 
 Hoje concentro meu portfólio em três frentes: **BI e Analytics Engineering**, **automação e produtos orientados a dados** e **projetos aplicados com Python/IA**.
 
+## Projeto flagship em Analytics Engineering
+
+**[Analytics Engineering — Snowflake + dbt](https://github.com/Peruzini/analytics-engineering-snowflake-dbt)** — case público de e-commerce com seis fontes sintéticas, modelos staging SQL/dbt, testes de qualidade, documentação técnica e CI offline. **MVP-01 publicado; execução Snowflake e marts estão no roadmap.**
+
 ## Comece por aqui
 
 Se você está avaliando meu trabalho para uma oportunidade em dados, estes são os melhores pontos de entrada:
