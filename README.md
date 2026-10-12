@@ -12,8 +12,8 @@ Hoje concentro meu portfólio em três frentes: **BI e Analytics Engineering**, 
 
 Se você está avaliando meu trabalho para uma oportunidade em dados, estes são os melhores pontos de entrada:
 
-- **[Fleet Analytics](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/fleet-dax-advanced)** — Power BI, DAX, modelagem dimensional e indicadores operacionais.
-- **[EquipAnalytics](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/big-data-equipamentos)** — PySpark, qualidade de dados, Bronze/Silver/Gold e testes.
+- **[Fleet Analytics](https://github.com/Peruzini/bi-analytics-portfolio/tree/main/projetos/fleet-dax-advanced)** — Power BI, DAX, modelagem dimensional e indicadores operacionais.
+- **[EquipAnalytics](https://github.com/Peruzini/bi-analytics-portfolio/tree/main/projetos/big-data-equipamentos)** — PySpark, qualidade de dados, Bronze/Silver/Gold e testes.
 - **[CYBER ÁTRIA — case público](case-studies/cyber-atria.md)** — Python, automação, contratos CSV/JSON, testes e GitHub Actions.
 - **[VTT Scene Compiler — case público](case-studies/vtt-scene-compiler.md)** — visão computacional, ML, benchmarks e arquitetura experimental.
 
@@ -22,7 +22,7 @@ Se você está avaliando meu trabalho para uma oportunidade em dados, estes são
 
 ### Fleet Analytics — Power BI, DAX e modelagem
 
-[Ver estudo](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/fleet-dax-advanced) · [Ver projeto Power BI](https://github.com/Peruzini/NOVOREPOSIT/tree/main/powerbi/fleet)
+[Ver estudo](https://github.com/Peruzini/bi-analytics-portfolio/tree/main/projetos/fleet-dax-advanced) · [Ver projeto Power BI](https://github.com/Peruzini/bi-analytics-portfolio/tree/main/powerbi/fleet)
 
 Estudo de gestão de equipamentos com produção, disponibilidade, manutenção, custos e criticidade.
 
@@ -33,7 +33,7 @@ Estudo de gestão de equipamentos com produção, disponibilidade, manutenção,
 
 ### EquipAnalytics — pipeline PySpark
 
-[Ver projeto](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/big-data-equipamentos)
+[Ver projeto](https://github.com/Peruzini/bi-analytics-portfolio/tree/main/projetos/big-data-equipamentos)
 
 Pipeline analítico em **PySpark/Spark SQL** com arquitetura Bronze/Silver/Gold.
 
@@ -81,9 +81,9 @@ Além dos projetos públicos, mantenho projetos privados de pesquisa e desenvolv
 
 | Projeto | Objetivo | Evidências |
 | --- | --- | --- |
-| [Indicadores de projetos](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/indicadores-projetos) | Acompanhar backlog, prazos e entregas | PBIP, DAX e referências numéricas |
-| [Marketing Analytics](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/marketing-analytics) | Avaliar aquisição, conversão, CAC e ROAS | SQL, Python, dados sintéticos e medidas DAX |
-| [Análise comercial](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/analise-comercial) | Analisar receita e margem por loja, categoria e período | PBIP, SQL, transformação e conciliação |
+| [Indicadores de projetos](https://github.com/Peruzini/bi-analytics-portfolio/tree/main/projetos/indicadores-projetos) | Acompanhar backlog, prazos e entregas | PBIP, DAX e referências numéricas |
+| [Marketing Analytics](https://github.com/Peruzini/bi-analytics-portfolio/tree/main/projetos/marketing-analytics) | Avaliar aquisição, conversão, CAC e ROAS | SQL, Python, dados sintéticos e medidas DAX |
+| [Análise comercial](https://github.com/Peruzini/bi-analytics-portfolio/tree/main/projetos/analise-comercial) | Analisar receita e margem por loja, categoria e período | PBIP, SQL, transformação e conciliação |
 | [NBA Data Analytics](https://github.com/Peruzini/M3-NBA-DataAnalytics-SQL) | Análise exploratória e consultas relacionais | SQL e projeto acadêmico em equipe |
 
 ## Stack
