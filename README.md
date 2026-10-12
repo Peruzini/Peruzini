@@ -8,6 +8,16 @@ Na FGV IBRE, trabalhei com **Power BI, SQL/Oracle, Snowflake, transformação e 
 
 Hoje concentro meu portfólio em três frentes: **BI e Analytics Engineering**, **automação e produtos orientados a dados** e **projetos aplicados com Python/IA**.
 
+## Comece por aqui
+
+Se você está avaliando meu trabalho para uma oportunidade em dados, estes são os melhores pontos de entrada:
+
+- **[Fleet Analytics](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/fleet-dax-advanced)** — Power BI, DAX, modelagem dimensional e indicadores operacionais.
+- **[EquipAnalytics](https://github.com/Peruzini/NOVOREPOSIT/tree/main/projetos/big-data-equipamentos)** — PySpark, qualidade de dados, Bronze/Silver/Gold e testes.
+- **[CYBER ÁTRIA — case público](case-studies/cyber-atria.md)** — Python, automação, contratos CSV/JSON, testes e GitHub Actions.
+- **[VTT Scene Compiler — case público](case-studies/vtt-scene-compiler.md)** — visão computacional, ML, benchmarks e arquitetura experimental.
+
+
 ## Projetos em destaque
 
 ### Fleet Analytics — Power BI, DAX e modelagem
@@ -58,12 +68,12 @@ Cases de sites institucionais e landing pages desenvolvidos para necessidades re
 
 Além dos projetos públicos, mantenho projetos privados de pesquisa e desenvolvimento que utilizo para aprofundar arquitetura, automação, engenharia de software e IA aplicada.
 
-| Projeto | Foco | Tecnologias / práticas |
+| Projeto | Foco | Evidência pública |
 | --- | --- | --- |
-| **GanttFlow for Power BI** | Visual personalizado de Gantt para planejamento, baseline e análise de desvios | Power BI Custom Visuals, TypeScript, Git, CI e modelagem de dados |
-| **VTT Scene Compiler** | Pipeline assistido por IA para converter battlemaps em estrutura de cena para VTT | Python, visão computacional, ML, benchmarks, pipelines e GitHub Actions |
-| **CYBER ÁTRIA** | Scanner passivo e autorizado de sinais técnicos em sites, com saída estruturada para análise | Python, HTTP/TLS/DNS, CSV/JSON, testes automatizados e GitHub Actions |
-| **API de gerenciamento do Facebook** | Camada própria para integrar Página do Facebook, Meta Graph API e clientes autorizados | Python, FastAPI, APIs, autenticação, webhooks e arquitetura de serviços |
+| **GanttFlow for Power BI** | Produto de Gantt para planejamento, baseline e análise de desvios no Power BI | [Case study](case-studies/ganttflow.md) |
+| **VTT Scene Compiler** | Pipeline assistido por IA para reconstrução estrutural de battlemaps | [Case study com arquitetura e benchmarks](case-studies/vtt-scene-compiler.md) |
+| **CYBER ÁTRIA** | Scanner passivo e autorizado com saída estruturada para revisão | [Case study com pipeline e validação prática](case-studies/cyber-atria.md) |
+| **API de gerenciamento do Facebook** | Integração entre Página do Facebook, Meta Graph API e clientes autorizados | [Repositório público](https://github.com/Peruzini/API-de-gerenciamento-do-Facebook) |
 
 > Os projetos privados são apresentados aqui pelo escopo técnico; código, datasets e evidências internas permanecem restritos quando necessário.
 
