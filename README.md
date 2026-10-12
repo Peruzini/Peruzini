@@ -12,6 +12,7 @@ Hoje concentro meu portfólio em três frentes: **BI e Analytics Engineering**, 
 
 Se você está avaliando meu trabalho para uma oportunidade em dados, estes são os melhores pontos de entrada:
 
+- **[BI & Analytics Portfolio](https://github.com/Peruzini/bi-analytics-portfolio)** — portfólio principal de Power BI, SQL, Python, PySpark, modelagem e qualidade de dados.
 - **[Fleet Analytics](https://github.com/Peruzini/bi-analytics-portfolio/tree/main/projetos/fleet-dax-advanced)** — Power BI, DAX, modelagem dimensional e indicadores operacionais.
 - **[EquipAnalytics](https://github.com/Peruzini/bi-analytics-portfolio/tree/main/projetos/big-data-equipamentos)** — PySpark, qualidade de dados, Bronze/Silver/Gold e testes.
 - **[CYBER ÁTRIA — case público](case-studies/cyber-atria.md)** — Python, automação, contratos CSV/JSON, testes e GitHub Actions.
