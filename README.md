@@ -10,7 +10,7 @@ Hoje concentro meu portfólio em três frentes: **BI e Analytics Engineering**, 
 
 ## Projeto flagship em Analytics Engineering
 
-**[Analytics Engineering — Snowflake + dbt](https://github.com/Peruzini/analytics-engineering-snowflake-dbt)** — case público de e-commerce com seis fontes sintéticas, modelos staging SQL/dbt, testes de qualidade, documentação técnica e CI offline. **MVP-01 publicado; execução Snowflake e marts estão no roadmap.**
+**[Analytics Engineering — Snowflake + dbt](https://github.com/Peruzini/analytics-engineering-snowflake-dbt)** — case demonstrativo de e-commerce com 12 meses de dados sintéticos, 4.200 pedidos, dbt/DuckDB, modelos incrementais, 39 medidas DAX e relatório Power BI PBIP de 4 páginas. **MVP-04D em homologação:** o usuário informou validação local concluída; a aprovação visual e o round-trip no Power BI Desktop ainda não foram confirmados. [Case de portfólio](https://github.com/Peruzini/analytics-engineering-snowflake-dbt/blob/main/docs/PORTFOLIO_CASE_STUDY.md).
 
 ## Comece por aqui
 
@@ -22,6 +22,10 @@ Se você está avaliando meu trabalho para uma oportunidade em dados, estes são
 - **[CYBER ÁTRIA — case público](case-studies/cyber-atria.md)** — Python, automação, contratos CSV/JSON, testes e GitHub Actions.
 - **[VTT Scene Compiler — case público](case-studies/vtt-scene-compiler.md)** — visão computacional, ML, benchmarks e arquitetura experimental.
 
+
+## Todos os repositórios
+
+[**Catálogo dos 25 repositórios da conta, organizados por área**](docs/REPOSITORY_CATALOG_2026-10-19.md) — índice para localizar projetos em andamento, cases de dados, ferramentas e estudos acadêmicos. Atividade no Git não equivale a validação de funcionamento.
 
 ## Projetos em destaque
 
@@ -71,7 +75,7 @@ Cases de sites institucionais e landing pages desenvolvidos para necessidades re
 
 ## R&D e produtos em desenvolvimento
 
-Além dos projetos públicos, mantenho projetos privados de pesquisa e desenvolvimento que utilizo para aprofundar arquitetura, automação, engenharia de software e IA aplicada.
+Além dos estudos de portfólio, desenvolvo projetos de pesquisa, ferramentas e automações que complementam meu trabalho em dados, arquitetura de software e IA aplicada.
 
 | Projeto | Foco | Evidência pública |
 | --- | --- | --- |
@@ -80,7 +84,7 @@ Além dos projetos públicos, mantenho projetos privados de pesquisa e desenvolv
 | **CYBER ÁTRIA** | Scanner passivo e autorizado com saída estruturada para revisão | [Case study com pipeline e validação prática](case-studies/cyber-atria.md) |
 | **API de gerenciamento do Facebook** | Integração entre Página do Facebook, Meta Graph API e clientes autorizados | [Repositório público](https://github.com/Peruzini/API-de-gerenciamento-do-Facebook) |
 
-> Os projetos privados são apresentados aqui pelo escopo técnico; código, datasets e evidências internas permanecem restritos quando necessário.
+> A visibilidade dos repositórios varia de acordo com o projeto. Quando houver dados internos ou evidências não publicáveis, compartilho apenas material autorizado.
 
 ## Outros estudos de dados
 
