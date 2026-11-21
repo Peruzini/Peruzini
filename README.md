@@ -23,9 +23,22 @@ Se você está avaliando meu trabalho para uma oportunidade em dados, estes são
 - **[VTT Scene Compiler — case público](case-studies/vtt-scene-compiler.md)** — visão computacional, ML, benchmarks e arquitetura experimental.
 
 
+## Projetos mais recentes — novembro de 2026
+
+Além dos cases de BI, estou desenvolvendo produtos de software e ferramentas com fluxos de teste, documentação e evolução incremental. O **estado de cada projeto é explicitado**, sem confundir protótipo, PR de desenvolvimento e entrega em produção.
+
+| Projeto | Escopo demonstrável | Situação |
+| --- | --- | --- |
+| **[Competir — eventos e fotografias](docs/PROJETOS_RECENTES_2026-11-21.md#competir--eventos-e-fotografias)** | Plataforma para organizadores e fotógrafos: galerias, inscrições simuladas, painéis operacionais e backup/restauração sintéticos | Protótipo local; OPS-02E2 integrada à `main`; pagamentos reais em HOLD |
+| **[Noite Infinita — jogo HTML5](docs/PROJETOS_RECENTES_2026-11-21.md#noite-infinita--jogo-html5)** | Jogo de sobrevivência para desktop/mobile, arte, progressão, armas e inimigos | Release candidate privado na `main`; melhorias GD-07/08 em PRs draft |
+| **[Forja WP Bridge](docs/PROJETOS_RECENTES_2026-11-21.md#forja-wp-bridge--integração-chatgpt-e-wordpress)** | Pesquisa de integração ChatGPT/WordPress, OAuth, multiusuário e segurança em staging | Provas e branches em desenvolvimento; conexão real ainda não homologada |
+| **[Warhammer TTS Narrator](docs/PROJETOS_RECENTES_2026-11-21.md#warhammer-tts-narrator--pesquisa-em-voz-ia)** | Pesquisa de narração PT-BR com TTS open-source, Colab e Drive | Pesquisa em PRs draft; não há versão de produção homologada |
+
+[Ver panorama atualizado, limites e evidências](docs/PROJETOS_RECENTES_2026-11-21.md).
+
 ## Todos os repositórios
 
-[**Catálogo dos 25 repositórios da conta, organizados por área**](docs/REPOSITORY_CATALOG_2026-10-19.md) — índice para localizar projetos em andamento, cases de dados, ferramentas e estudos acadêmicos. Atividade no Git não equivale a validação de funcionamento.
+[**Catálogo dos 29 repositórios da conta — conferência em 21/11/2026**](docs/REPOSITORY_CATALOG_2026-11-21.md) — projetos ativos, cases, trabalhos acadêmicos e forks de terceiros. Os repositórios privados só são acessíveis a quem tem permissão. O inventário anterior de 19/10 permanece como registro histórico.
 
 ## Projetos em destaque
 
