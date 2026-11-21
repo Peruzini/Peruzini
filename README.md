@@ -8,7 +8,7 @@ Da necessidade operacional ao dado confiável: modelos, indicadores e soluções
 
 **Power BI / DAX** · **SQL / dbt / Snowflake** · **Python / PySpark** · **Automação**
 
-[Projetos com evidências](#projetos-com-evidencias) · [Experiência](#experiência) · [Projetos recentes](docs/PROJETOS_RECENTES_2026-11-21.md) · [Todos os repositórios](docs/REPOSITORY_CATALOG_2026-11-21.md)
+[Projetos com evidências](#projetos-com-evidências) · [Experiência](#experiência) · [Projetos recentes](docs/PROJETOS_RECENTES_2026-11-21.md) · [Todos os repositórios](docs/REPOSITORY_CATALOG_2026-11-21.md)
 
 </div>
 
