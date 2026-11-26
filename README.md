@@ -1,97 +1,92 @@
 <div align="center">
 
+<img src="assets/brand/banner-v3.svg" alt="Rafael Peruzini — Dados, BI e soluções de software" width="100%">
+
 # Rafael Peruzini
 
-**Business Intelligence · Analytics Engineering · Planejamento e Dados**
+**Business Intelligence · Analytics Engineering · Desenvolvimento · Automação e IA**
 
-Da necessidade operacional ao dado confiável: modelos, indicadores e soluções que possam ser testados, explicados e utilizados na tomada de decisão.
+Transformo necessidades de negócio em indicadores confiáveis, pipelines de dados e soluções de software testáveis.
 
-**Power BI / DAX** · **SQL / dbt / Snowflake** · **Python / PySpark** · **Automação**
-
-[Projetos com evidências](#projetos-com-evidências) · [Experiência](#experiência) · [Projetos recentes](docs/PROJETOS_RECENTES_2026-11-21.md) · [Todos os repositórios](docs/REPOSITORY_CATALOG_2026-11-21.md)
+[Áreas de atuação](#áreas-de-atuação) · [Projetos em destaque](#projetos-em-destaque) · [Experiência](#experiência) · [Mais projetos](#mais-projetos) · [Contato](#contato)
 
 </div>
 
-Sou formado em **Engenharia de Minas** e **Ciência de Dados**, com experiência na **FGV IBRE**, em BI e soluções analíticas, e na **CSN**, em planejamento e indicadores operacionais. Trabalho na ligação entre regras de negócio, qualidade dos dados, automação e visualização, com foco em resultados que possam ser conferidos.
+## Sobre mim
 
-## Projetos com evidências
+Formado em **Engenharia de Minas e Ciência de Dados**, com experiência profissional na **FGV IBRE**, em BI e soluções analíticas, e na **CSN**, em planejamento e indicadores operacionais. Minha atuação conecta regras de negócio, qualidade de dados, automação e desenvolvimento de soluções.
 
-Três pontos de partida para avaliar meu trabalho. Cada estudo separa **o que está implementado**, **o que foi testado** e **o que ainda precisa de validação**.
+## Áreas de atuação
 
-| Projeto | O que foi desenvolvido | Evidência para conferir |
-| --- | --- | --- |
-| **[E-commerce Analytics — dbt + Power BI](https://github.com/Peruzini/analytics-engineering-snowflake-dbt)** | Pipeline com 6 fontes sintéticas, 7 marts, 39 medidas DAX e relatório de 4 páginas/50 visuais | [Estudo de caso](https://github.com/Peruzini/analytics-engineering-snowflake-dbt/blob/main/docs/PORTFOLIO_CASE_STUDY.md) · [Gates de validação](https://github.com/Peruzini/analytics-engineering-snowflake-dbt/blob/main/docs/MVP04D_RELEASE.md) |
-| **[Fleet Analytics — BI operacional](case-studies/fleet-analytics.md)** | Modelo dimensional de equipamentos, custos, produção, manutenção e criticidade; PBIP com 34 medidas DAX | [Case e limitações](case-studies/fleet-analytics.md) · [PBIP editável](https://github.com/Peruzini/bi-analytics-portfolio/tree/main/powerbi/fleet) |
-| **[EquipAnalytics — PySpark](case-studies/equipanalytics.md)** | Pipeline Bronze/Silver/Gold, regras de qualidade, reconciliação, SQL e Parquet | [Case e prévia](case-studies/equipanalytics.md) · [CI concluída](https://github.com/Peruzini/bi-analytics-portfolio/actions/runs/34867957046) |
+- **Business Intelligence:** Power BI, DAX, Power Query, indicadores e planejamento operacional. [Ver projetos de BI](https://github.com/Peruzini/bi-analytics-portfolio).
+- **Engenharia de Dados:** SQL, Oracle, Snowflake, dbt, Python e PySpark. [Ver pipeline analítico](https://github.com/Peruzini/analytics-engineering-snowflake-dbt).
+- **Desenvolvimento de Software:** PHP, WordPress, JavaScript, Node.js e APIs. [Ver Forja Mineira D20](https://github.com/Peruzini/forja-mineira-d20) e [portfólio web](https://github.com/Peruzini/portfolio-web).
+- **Automação e IA:** Python, integrações, Power Automate, SharePoint e pesquisa em MCP. [Ver case Cyber Átria](case-studies/cyber-atria.md).
 
-**Evidência visual disponível — EquipAnalytics**
+## Projetos em destaque
 
-<a href="https://github.com/Peruzini/bi-analytics-portfolio/tree/main/projetos/big-data-equipamentos"><img src="https://raw.githubusercontent.com/Peruzini/bi-analytics-portfolio/main/projetos/big-data-equipamentos/assets/preview.svg" alt="EquipAnalytics: indicadores de uma amostra sintética controlada e reconciliação entre registros válidos, rejeitados e duplicados" width="680"></a>
+### 01 · Fleet Analytics — BI e planejamento industrial
 
-*Prévia estática de 10 registros sintéticos com valores esperados; não é captura de Power BI nem resultado visual de uma execução Spark. [Dados e validação](https://github.com/Peruzini/bi-analytics-portfolio/blob/main/projetos/big-data-equipamentos/docs/validacao.md).*
+**Power BI · DAX · Power Query · Modelagem dimensional**
 
-### Como ler as evidências
+Identificar equipamentos críticos e compreender perdas, produção, disponibilidade, manutenção e custos. O projeto PBIP contém quatro páginas e 34 medidas DAX documentadas.
 
-- **Código e modelo no Git** comprovam implementação, não funcionamento em ambiente final.
-- **CI PASS** comprova testes daquele commit e daquele ambiente; não equivale à aprovação de um dashboard por usuários.
-- **Capturas reais do Power BI Desktop** ainda são pendentes para os relatórios Fleet e E-commerce. Não substituo essas capturas por imagens ilustrativas.
+**Status:** modelo e relatório versionados; homologação visual completa no Power BI Desktop pendente.
 
-Para mais casos, veja [CYBER ÁTRIA](case-studies/cyber-atria.md), [VTT Scene Compiler](case-studies/vtt-scene-compiler.md) e [GanttFlow](case-studies/ganttflow.md). Nos projetos privados, apenas o escopo publicável aparece aqui.
+[Estudo de caso](case-studies/fleet-analytics.md) · [Código e PBIP](https://github.com/Peruzini/bi-analytics-portfolio/tree/main/powerbi/fleet)
 
-## Projetos mais recentes — novembro de 2026
+### 02 · E-commerce Analytics — Engenharia de Dados
 
-Além dos cases de BI, estou desenvolvendo produtos de software e ferramentas com fluxos de teste, documentação e evolução incremental. O **estado de cada projeto é explicitado**, sem confundir protótipo, PR de desenvolvimento e entrega em produção.
+**dbt · Snowflake · DuckDB · SQL · Power BI**
 
-| Projeto | Escopo demonstrável | Situação |
-| --- | --- | --- |
-| **[Competir — eventos e fotografias](docs/PROJETOS_RECENTES_2026-11-21.md#competir--eventos-e-fotografias)** | Plataforma para organizadores e fotógrafos: galerias, inscrições simuladas, painéis operacionais e backup/restauração sintéticos | Protótipo local; OPS-02E2 integrada à `main`; pagamentos reais em HOLD |
-| **[Noite Infinita — jogo HTML5](docs/PROJETOS_RECENTES_2026-11-21.md#noite-infinita--jogo-html5)** | Jogo de sobrevivência para desktop/mobile, arte, progressão, armas e inimigos | Release candidate privado na `main`; melhorias GD-07/08 em PRs draft |
-| **[Forja WP Bridge](docs/PROJETOS_RECENTES_2026-11-21.md#forja-wp-bridge--integração-chatgpt-e-wordpress)** | Pesquisa de integração ChatGPT/WordPress, OAuth, multiusuário e segurança em staging | Provas e branches em desenvolvimento; conexão real ainda não homologada |
-| **[Warhammer TTS Narrator](docs/PROJETOS_RECENTES_2026-11-21.md#warhammer-tts-narrator--pesquisa-em-voz-ia)** | Pesquisa de narração PT-BR com TTS open-source, Colab e Drive | Pesquisa em PRs draft; não há versão de produção homologada |
+Pipeline com seis fontes sintéticas, sete marts, testes de qualidade, snapshots e relatório PBIP com 39 medidas DAX e 50 visuais.
 
-[Ver panorama atualizado, limites e evidências](docs/PROJETOS_RECENTES_2026-11-21.md).
+**Status:** pré-release; execução local verde informada, ainda sem log publicado para a fixture atual; round-trip e capturas do Power BI pendentes.
 
-## Todos os repositórios
+[Estudo de caso](https://github.com/Peruzini/analytics-engineering-snowflake-dbt/blob/main/docs/PORTFOLIO_CASE_STUDY.md) · [Código](https://github.com/Peruzini/analytics-engineering-snowflake-dbt) · [Gates de validação](https://github.com/Peruzini/analytics-engineering-snowflake-dbt/blob/main/docs/MVP04D_RELEASE.md)
 
-[**Catálogo dos 29 repositórios da conta — conferência em 21/11/2026**](docs/REPOSITORY_CATALOG_2026-11-21.md) — projetos ativos, cases, trabalhos acadêmicos e forks de terceiros. Os repositórios privados só são acessíveis a quem tem permissão. O inventário anterior de 19/10 permanece como registro histórico.
+### 03 · Forja Mineira D20 — Desenvolvimento Web
 
-## Produtos digitais e portfólio web
+**PHP · WordPress · JavaScript · SEO**
 
-### Forja Mineira D20 — WordPress e evolução de produto
+Produto editorial com plugins próprios, ferramentas interativas, gestão de conteúdo, versionamento e estratégias de atualização e rollback.
 
-[Ver código e documentação](https://github.com/Peruzini/forja-mineira-d20) · [Site público](https://forjamineirad20.com.br/)
+**Status:** site público; integração própria MCP permanece em pesquisa e não é apresentada como homologada.
 
-Projeto editorial e técnico com desenvolvimento e manutenção de plugins PHP/CSS/JavaScript, organização de conteúdo, SEO e estratégias de atualização e rollback. A integração própria Forja WP Bridge permanece em pesquisa; **a conexão MCP real no Chat normal não está homologada**.
+[Site público](https://forjamineirad20.com.br/) · [Código e documentação](https://github.com/Peruzini/forja-mineira-d20)
 
-### Portfólio Web — desenvolvimento para negócios
+### 04 · Cyber Átria — Automação e integração
 
-[Ver repositório](https://github.com/Peruzini/portfolio-web)
+**Python · HTTP/TLS/DNS · CSV/JSON · Testes**
 
-Sites institucionais e landing pages em PHP, HTML, CSS e JavaScript, com atenção a responsividade, formulários e implantação. Os [materiais de apresentação](https://github.com/Peruzini/portfolio-web/tree/main/docs/previews) são prévias de projeto, não validação de funcionamento dos sites.
+Pipeline de coleta passiva e autorizada de sinais técnicos, classificação determinística e revisão humana. O case registra um piloto de seis domínios autorizados, concluído sem erros de execução.
 
-## R&D e produtos em desenvolvimento
+**Status:** piloto documentado; código privado. Métricas agregadas disponíveis no case público, sem dados de terceiros.
 
-Além dos estudos de portfólio, desenvolvo projetos de pesquisa, ferramentas e automações que complementam meu trabalho em dados, arquitetura de software e IA aplicada.
+[Estudo de caso](case-studies/cyber-atria.md)
 
-| Projeto | Foco | Evidência pública |
-| --- | --- | --- |
-| **GanttFlow for Power BI** | Produto de Gantt para planejamento, baseline e análise de desvios no Power BI | [Case study](case-studies/ganttflow.md) |
-| **VTT Scene Compiler** | Pipeline assistido por IA para reconstrução estrutural de battlemaps | [Case study com arquitetura e benchmarks](case-studies/vtt-scene-compiler.md) |
-| **CYBER ÁTRIA** | Scanner passivo e autorizado com saída estruturada para revisão | [Case study com pipeline e validação prática](case-studies/cyber-atria.md) |
-| **API de gerenciamento do Facebook** | Integração entre Página do Facebook, Meta Graph API e clientes autorizados | [Repositório público](https://github.com/Peruzini/API-de-gerenciamento-do-Facebook) |
+## Mais projetos
 
-> A visibilidade dos repositórios varia de acordo com o projeto. Quando houver dados internos ou evidências não publicáveis, compartilho apenas material autorizado.
+- **[EquipAnalytics — PySpark](case-studies/equipanalytics.md):** pipeline Bronze/Silver/Gold e reconciliação. [Registro histórico](https://github.com/Peruzini/bi-analytics-portfolio/blob/main/projetos/big-data-equipamentos/results/ci-100k.json) de 100 mil eventos sintéticos únicos solicitados e sete testes aprovados em Spark local; não representa um cluster de produção.
+- **[Competir](docs/PROJETOS_RECENTES_2026-11-21.md#competir--eventos-e-fotografias):** marketplace de fotografias, painéis operacionais e recuperação. Projeto privado; panorama datado de 21/11, sem operação comercial comprovada nesse registro.
+- **[Noite Infinita](docs/PROJETOS_RECENTES_2026-11-21.md#noite-infinita--jogo-html5):** jogo HTML5, UX mobile e progressão. Projeto privado; panorama histórico de 21/11.
+- **[Forja WP Bridge](docs/PROJETOS_RECENTES_2026-11-21.md#forja-wp-bridge--integração-chatgpt-e-wordpress):** pesquisa em integração WordPress, MCP e OAuth; homologação operacional não comprovada no registro.
 
-## Outros estudos de dados
+### Evidência visual disponível — EquipAnalytics
 
-| Projeto | Objetivo | Evidências |
-| --- | --- | --- |
-| [Indicadores de projetos](https://github.com/Peruzini/bi-analytics-portfolio/tree/main/projetos/indicadores-projetos) | Acompanhar backlog, prazos e entregas | PBIP, DAX e referências numéricas |
-| [Marketing Analytics](https://github.com/Peruzini/bi-analytics-portfolio/tree/main/projetos/marketing-analytics) | Avaliar aquisição, conversão, CAC e ROAS | SQL, Python, dados sintéticos e medidas DAX |
-| [Análise comercial](https://github.com/Peruzini/bi-analytics-portfolio/tree/main/projetos/analise-comercial) | Analisar receita e margem por loja, categoria e período | PBIP, SQL, transformação e conciliação |
-| [NBA Data Analytics](https://github.com/Peruzini/M3-NBA-DataAnalytics-SQL) | Análise exploratória e consultas relacionais | SQL e projeto acadêmico em equipe |
+[![Prévia estática de uma amostra sintética de 10 registros](https://raw.githubusercontent.com/Peruzini/bi-analytics-portfolio/main/projetos/big-data-equipamentos/assets/preview.svg)](https://github.com/Peruzini/bi-analytics-portfolio/tree/main/projetos/big-data-equipamentos)
 
-## Stack
+*Ilustração de valores esperados da amostra de 10 registros, não captura de execução Spark ou Power BI. [Dados e validação](https://github.com/Peruzini/bi-analytics-portfolio/blob/main/projetos/big-data-equipamentos/docs/validacao.md).*
+
+## Experiência
+
+**FGV IBRE — Analista de BI**  
+Power BI, SQL/Oracle, Snowflake, automações, indicadores, qualidade de dados e apoio a áreas de negócio.
+
+**CSN — Técnico Especialista em Planejamento**  
+Planejamento, KPIs operacionais, análise de equipamentos, acompanhamento de desempenho e suporte à tomada de decisão.
+
+## Competências técnicas
 
 | Área | Tecnologias e práticas |
 | --- | --- |
@@ -104,22 +99,33 @@ Além dos estudos de portfólio, desenvolvo projetos de pesquisa, ferramentas e 
 | **Web / produto** | PHP, HTML, CSS, JavaScript, WordPress, Node.js |
 | **Negócio** | Levantamento de requisitos, planejamento, indicadores, análise de desvios e melhoria de processos |
 
-## Como trabalho com dados
 
-1. Entendo a decisão de negócio e transformo a necessidade em métricas e regras verificáveis.
-2. Investigo a origem dos dados e valido chaves, duplicidades, nulos, agregações e consistência entre fontes.
-3. Estruturo as transformações e o modelo antes de levar a informação para a camada de visualização.
-4. Comparo os resultados com referências e critérios de aceite antes da entrega.
-5. Versiono código, documentação e mudanças relevantes para manter rastreabilidade.
+## Outros estudos e pesquisa
 
-## Experiência
+- [Indicadores de projetos](https://github.com/Peruzini/bi-analytics-portfolio/tree/main/projetos/indicadores-projetos) — backlog, prazos e entregas.
+- [Marketing Analytics](https://github.com/Peruzini/bi-analytics-portfolio/tree/main/projetos/marketing-analytics) — aquisição, conversão, CAC e ROAS.
+- [Análise comercial](https://github.com/Peruzini/bi-analytics-portfolio/tree/main/projetos/analise-comercial) — receita e margem.
+- [NBA Data Analytics](https://github.com/Peruzini/M3-NBA-DataAnalytics-SQL) — projeto acadêmico colaborativo.
+- [GanttFlow](case-studies/ganttflow.md) — visual Gantt para Power BI.
+- [VTT Scene Compiler](case-studies/vtt-scene-compiler.md) — pesquisa em reconstrução de mapas assistida por IA.
+- [API de gerenciamento do Facebook](https://github.com/Peruzini/API-de-gerenciamento-do-Facebook) — integração Meta Graph API.
+- [Warhammer TTS Narrator](docs/PROJETOS_RECENTES_2026-11-21.md#warhammer-tts-narrator--pesquisa-em-voz-ia) — pesquisa TTS em PT-BR.
+- [Portfólio Web](https://github.com/Peruzini/portfolio-web) — sites institucionais e landing pages; prévias conceituais, não homologação.
 
-**FGV IBRE — Analista de BI**  
-Power BI, SQL/Oracle, Snowflake, automações, indicadores, qualidade de dados e apoio a áreas de negócio.
+[Panorama dos projetos — 21/11/2026](docs/PROJETOS_RECENTES_2026-11-21.md) · [Inventário histórico dos 29 repositórios — 21/11/2026](docs/REPOSITORY_CATALOG_2026-11-21.md)
 
-**CSN — Técnico Especialista em Planejamento**  
-Planejamento, KPIs operacionais, análise de equipamentos, acompanhamento de desempenho e suporte à tomada de decisão.
+## Como trabalho
 
----
+1. Traduzo necessidades de negócio em métricas e requisitos verificáveis.
+2. Valido fontes, chaves, duplicidades, nulos e consistência.
+3. Estruturo transformações, modelos e soluções.
+4. Confiro resultados com critérios de aceite.
+5. Versiono mudanças, testes e documentação.
 
-Os projetos demonstrativos utilizam dados próprios, públicos ou sintéticos e não expõem informações confidenciais de empregadores ou clientes.
+## Transparência das evidências
+
+Código versionado comprova implementação, não operação em produção. Testes comprovam apenas o commit e ambiente avaliados. Dados demonstrativos são públicos, próprios ou sintéticos; não representam resultados de empregadores ou clientes. Capturas reais ainda pendentes não são substituídas por imagens fictícias. Projetos privados são apresentados por material público autorizado.
+
+## Contato
+
+[Perfil no GitHub](https://github.com/Peruzini) — consulte os canais públicos disponíveis no perfil.
