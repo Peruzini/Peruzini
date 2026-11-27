@@ -25,7 +25,11 @@ Formado em **Engenharia de Minas e Ciência de Dados**, com experiência profiss
 
 ## Projetos em destaque
 
+As capas abaixo identificam os cases; são ilustrações editoriais, não capturas dos sistemas.
+
 ### 01 · Fleet Analytics — BI e planejamento industrial
+
+<a href="case-studies/fleet-analytics.md"><img src="assets/cards/fleet-analytics.svg" alt="Capa editorial: Fleet Analytics — BUSINESS INTELLIGENCE" width="480"></a>
 
 **Power BI · DAX · Power Query · Modelagem dimensional**
 
@@ -37,6 +41,8 @@ Identificar equipamentos críticos e compreender perdas, produção, disponibili
 
 ### 02 · E-commerce Analytics — Engenharia de Dados
 
+<a href="https://github.com/Peruzini/analytics-engineering-snowflake-dbt/blob/main/docs/PORTFOLIO_CASE_STUDY.md"><img src="assets/cards/ecommerce-analytics.svg" alt="Capa editorial: E-commerce Analytics — ENGENHARIA DE DADOS" width="480"></a>
+
 **dbt · Snowflake · DuckDB · SQL · Power BI**
 
 Pipeline com seis fontes sintéticas, sete marts, testes de qualidade, snapshots e relatório PBIP com 39 medidas DAX e 50 visuais.
@@ -46,6 +52,8 @@ Pipeline com seis fontes sintéticas, sete marts, testes de qualidade, snapshots
 [Estudo de caso](https://github.com/Peruzini/analytics-engineering-snowflake-dbt/blob/main/docs/PORTFOLIO_CASE_STUDY.md) · [Código](https://github.com/Peruzini/analytics-engineering-snowflake-dbt) · [Gates de validação](https://github.com/Peruzini/analytics-engineering-snowflake-dbt/blob/main/docs/MVP04D_RELEASE.md)
 
 ### 03 · Forja Mineira D20 — Desenvolvimento Web
+
+<a href="https://github.com/Peruzini/forja-mineira-d20"><img src="assets/cards/forja-mineira-d20.svg" alt="Capa editorial: Forja Mineira D20 — DESENVOLVIMENTO WEB" width="480"></a>
 
 **PHP · WordPress · JavaScript · SEO**
 
@@ -57,6 +65,8 @@ Produto editorial com plugins próprios, ferramentas interativas, gestão de con
 
 ### 04 · Cyber Átria — Automação e integração
 
+<a href="case-studies/cyber-atria.md"><img src="assets/cards/cyber-atria.svg" alt="Capa editorial: Cyber Átria — AUTOMAÇÃO E INTEGRAÇÃO" width="480"></a>
+
 **Python · HTTP/TLS/DNS · CSV/JSON · Testes**
 
 Pipeline de coleta passiva e autorizada de sinais técnicos, classificação determinística e revisão humana. O case registra um piloto de seis domínios autorizados, concluído sem erros de execução.
@@ -67,10 +77,38 @@ Pipeline de coleta passiva e autorizada de sinais técnicos, classificação det
 
 ## Mais projetos
 
-- **[EquipAnalytics — PySpark](case-studies/equipanalytics.md):** pipeline Bronze/Silver/Gold e reconciliação. [Registro histórico](https://github.com/Peruzini/bi-analytics-portfolio/blob/main/projetos/big-data-equipamentos/results/ci-100k.json) de 100 mil eventos sintéticos únicos solicitados e sete testes aprovados em Spark local; não representa um cluster de produção.
-- **[Competir](docs/PROJETOS_RECENTES_2026-11-21.md#competir--eventos-e-fotografias):** marketplace de fotografias, painéis operacionais e recuperação. Projeto privado; panorama datado de 21/11, sem operação comercial comprovada nesse registro.
-- **[Noite Infinita](docs/PROJETOS_RECENTES_2026-11-21.md#noite-infinita--jogo-html5):** jogo HTML5, UX mobile e progressão. Projeto privado; panorama histórico de 21/11.
-- **[Forja WP Bridge](docs/PROJETOS_RECENTES_2026-11-21.md#forja-wp-bridge--integração-chatgpt-e-wordpress):** pesquisa em integração WordPress, MCP e OAuth; homologação operacional não comprovada no registro.
+### 05 · EquipAnalytics
+
+<a href="case-studies/equipanalytics.md"><img src="assets/cards/equipanalytics.svg" alt="Capa editorial: EquipAnalytics — BIG DATA" width="480"></a>
+
+pipeline Bronze/Silver/Gold e reconciliação. [Registro histórico](https://github.com/Peruzini/bi-analytics-portfolio/blob/main/projetos/big-data-equipamentos/results/ci-100k.json) de 100 mil eventos sintéticos únicos solicitados e sete testes aprovados em Spark local; não representa um cluster de produção.
+
+[Consultar projeto e evidências](case-studies/equipanalytics.md)
+
+### 06 · Competir
+
+<a href="docs/PROJETOS_RECENTES_2026-11-21.md#competir--eventos-e-fotografias"><img src="assets/cards/competir.svg" alt="Capa editorial: Competir — FULL STACK" width="480"></a>
+
+marketplace de fotografias, painéis operacionais e recuperação. Projeto privado; panorama datado de 21/11, sem operação comercial comprovada nesse registro.
+
+[Consultar projeto e evidências](docs/PROJETOS_RECENTES_2026-11-21.md#competir--eventos-e-fotografias)
+
+### 07 · Noite Infinita
+
+<a href="docs/PROJETOS_RECENTES_2026-11-21.md#noite-infinita--jogo-html5"><img src="assets/cards/noite-infinita.svg" alt="Capa editorial: Noite Infinita — DESENVOLVIMENTO DE SOFTWARE" width="480"></a>
+
+jogo HTML5, UX mobile e progressão. Projeto privado; panorama histórico de 21/11.
+
+[Consultar projeto e evidências](docs/PROJETOS_RECENTES_2026-11-21.md#noite-infinita--jogo-html5)
+
+### 08 · Forja WP Bridge
+
+<a href="docs/PROJETOS_RECENTES_2026-11-21.md#forja-wp-bridge--integração-chatgpt-e-wordpress"><img src="assets/cards/forja-wp-bridge.svg" alt="Capa editorial: Forja WP Bridge — PESQUISA EM IA" width="480"></a>
+
+pesquisa em integração WordPress, MCP e OAuth; homologação operacional não comprovada no registro.
+
+[Consultar projeto e evidências](docs/PROJETOS_RECENTES_2026-11-21.md#forja-wp-bridge--integração-chatgpt-e-wordpress)
+
 
 ### Evidência visual disponível — EquipAnalytics
 
